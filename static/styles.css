@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #0f0; /* Green text */
+}
+
+.matrix-bg {
+    background-color: #000; /* Black background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.matrix-header {
+    font-size: 2.5rem;
+}
+
+.matrix-text {
+    font-size: 1.5rem;
+}
+
+.matrix-number {
+    font-weight: bold;
+}
+
+.matrix-button {
+    padding: 8px 16px;
+    background-color: #000; /* Black background */
+    color: #0f0; /* Green text */
+    border: 1px solid #0f0; /* Green border */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.matrix-button:hover {
+    background-color: #0f0; /* Green background */
+    color: #000; /* Black text */
+}
+
+.matrix-input {
+    padding: 8px;
+    border: 1px solid #0f0; /* Green border */
+    background-color: #000; /* Black background */
+    color: #0f0; /* Green text */
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    outline: none; /* Remove default outline */
+    outline-color: #0f0; /* Green outline color */
+}
